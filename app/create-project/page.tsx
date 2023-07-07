@@ -8,7 +8,7 @@ const CreateProject = async () => {
   if (!session?.user) redirect("/");
   return (
     <Modal>
-      <h3 className="modal-head-text">Create A New Deisgn</h3>
+      <h3 className="modal-head-text">Create A New Design</h3>
       <ProjectForm type="create" session={session} />
     </Modal>
   );
